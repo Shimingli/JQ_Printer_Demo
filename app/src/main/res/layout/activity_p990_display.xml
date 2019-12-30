@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context=".ui.print_test.p990display.P990DisplayActivity">
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10mm"
+    android:layout_marginLeft="2mm"
+    android:textSize="20dp"
+    android:text="位置"
+    android:background="@android:color/darker_gray" />
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10mm"
+    android:layout_marginLeft="15mm"
+    android:textSize="20dp"
+    android:text="字体"
+    android:background="@android:color/darker_gray" />
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10mm"
+    android:layout_marginLeft="25mm"
+    android:textSize="20dp"
+    android:text="显示内容"
+    android:background="@android:color/darker_gray" />
+
+<TextView
+    android:id="@+id/Line1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20mm"
+    android:layout_marginLeft="2mm"
+    android:text="第一行"
+    android:textSize="20dp"
+    android:background="@android:color/darker_gray" />
+
+<EditText
+    android:id="@+id/Line1SizeText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:selectAllOnFocus="true"
+    android:layout_marginLeft="15mm"
+    android:layout_marginTop="20mm"
+    android:text="1" />
+
+<EditText
+    android:id="@+id/Line1Text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:selectAllOnFocus="true"
+    android:layout_marginLeft="25mm"
+    android:layout_marginTop="20mm"
+    android:text="部门："
+    android:inputType="none" />
+
+
+<TextView
+    android:id="@+id/Line2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Line1"
+    android:layout_alignLeft="@+id/Line1"
+    android:background="@android:color/darker_gray"
+    android:layout_alignTop="@+id/Line2Text"
+    android:textSize="20dp"
+    android:text="第二行" />
+
+<EditText
+    android:id="@+id/Line2SizeText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Line1SizeText"
+    android:layout_alignLeft="@+id/Line1SizeText"
+    android:layout_alignTop="@+id/Line2Text"
+    android:selectAllOnFocus="true"
+    android:text="1" />
+
+<EditText
+    android:id="@+id/Line2Text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Line1Text"
+    android:layout_alignLeft="@+id/Line1Text"
+    android:selectAllOnFocus="true"
+    android:text="姓名：" />
+
+<TextView
+    android:id="@+id/Line3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Line2"
+    android:layout_alignLeft="@+id/Line1"
+    android:layout_alignTop="@+id/Line3Text"
+    android:textSize="20dp"
+    android:text="第三行"
+    android:background="@android:color/darker_gray" />
+
+<EditText
+    android:id="@+id/Line3SizeText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Line2SizeText"
+    android:layout_alignLeft="@+id/Line2SizeText"
+    android:layout_alignTop="@+id/Line3Text"
+    android:selectAllOnFocus="true"
+    android:text="1" />
+
+<EditText
+    android:id="@+id/Line3Text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Line2Text"
+    android:layout_alignLeft="@+id/Line2Text"
+    android:selectAllOnFocus="true"
+    android:text="工号：" />
+
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Line3Text"
+    android:layout_alignLeft="@+id/Line3"
+    android:text="注意：\n1、字体大小只能在1-4之间\n2、超出屏幕的文本将被忽略\n3、每行最多显示1号字符14个，2号字符9个，3号字符7个，4号字符5个\n4、1-3号字符和2号字符最多显示3行，4号字符显示2行\n5、先开机，等待屏幕闪烁完成后更新显示"
+    android:textColor="#EA5246"
+    android:textStyle="bold|italic"
+    android:background="#000000"
+    android:textSize="18sp" />
+
+<Button
+        android:id="@+id/ButtonStartDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:onClick="ButtonStartDisplay_click"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
+        android:text="水墨屏开机" />
+
+<Button
+    android:id="@+id/ButtonUpdateDisplay"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:onClick="ButtonUpdateDisplay_click"
+    android:textColor="@android:color/black"
+    android:background="@android:color/darker_gray"
+    android:text="更新显示" />
+
+<Button
+    android:id="@+id/ButtonCleanDisplay"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="70dp"
+    android:onClick="ButtonCleanDisplay_click"
+    android:textColor="@android:color/black"
+    android:background="@android:color/darker_gray"
+    android:text="清除显示" />
+
+
+
+</RelativeLayout>

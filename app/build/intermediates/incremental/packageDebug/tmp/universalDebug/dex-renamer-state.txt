@@ -1,0 +1,4 @@
+#Mon Dec 30 10:34:55 CST 2019
+base.0=D\:\\JQ_Printer_Demo\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

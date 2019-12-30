@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/TableEditText1"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+
+        android:layout_alignParentLeft="true"
+        android:selectAllOnFocus="true"
+        android:layout_marginLeft="10mm"
+        android:layout_marginTop="20mm"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="姓名"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/TableEditText2"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="40mm"
+        android:layout_marginTop="20mm"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:inputType="none"
+        android:text="张三" />
+
+    <View
+        android:layout_marginTop="30mm"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+    <EditText
+        android:id="@+id/TableEditText3"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="10mm"
+        android:layout_marginTop="35mm"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="年龄"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/TableEditText4"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="40mm"
+        android:layout_marginTop="35mm"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="22"
+        android:inputType="none" />
+    <View
+        android:layout_marginTop="45mm"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+
+    <EditText
+        android:id="@+id/TableEditText5"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="10mm"
+        android:layout_marginTop="50mm"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="单位"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/TableEditText6"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="40mm"
+        android:layout_marginTop="50mm"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="上海济强电子科技有限公司"
+        android:inputType="none" />
+
+    <View
+        android:layout_marginTop="60mm"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+    <EditText
+        android:id="@+id/TableEditText7"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="10mm"
+        android:layout_marginTop="65mm"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="地址"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/TableEditText8"
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="40mm"
+        android:layout_marginTop="65mm"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="新金桥路1299号1号楼601"
+        android:inputType="none" />
+    <View
+        android:layout_marginTop="75mm"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/ButtonTablePrint"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:onClick="ButtonTablePrint_click"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
+        android:text="打印" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Dec 30 10:34:56 CST 2019
+1.base=D\:\\JQ_Printer_Demo\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\JQ_Printer_Demo\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+1.path=lib/armeabi/libserial_port.so

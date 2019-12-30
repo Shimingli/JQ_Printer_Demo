@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JQPrinter_Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_world1">上海济强电子科技有限公司JLP系列打印机</string>
+    <string name="title_activity_enforcement_bill">EnforcementBillActivity</string>
+    <string name="title_activity_main_express">MainActivity</string>
+    <string name="title_activity_main_card_reader">MainCardReaderActivity</string>
+    <string name="title_activity_express_form_main">ExpressFormMainActivity</string>
+    <string name="title_activity_main_express_test">MainExpressTestActivity</string>
+</resources>

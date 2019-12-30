@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.print_test.jqtek_mode1.JQTEKMode1Activity">
+
+ <TextView
+     android:id="@+id/ModelNOTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="5mm"
+     android:layout_marginTop="20mm"
+     android:background="@android:color/darker_gray"
+     android:textSize="25dp"
+     android:text="型号：" />
+
+ <EditText
+     android:id="@+id/ModelNOEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="25mm"
+     android:layout_marginTop="20mm"
+     android:selectAllOnFocus="true"
+     android:textSize="20dp"
+     android:text="JMD451" />
+
+ <TextView
+     android:id="@+id/SerialNOTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/ModelNOTextView"
+     android:layout_alignLeft="@+id/ModelNOTextView"
+     android:background="@android:color/darker_gray"
+     android:layout_alignTop="@+id/SerialNOEditText"
+     android:textSize="25dp"
+     android:text="序号：" />
+
+ <EditText
+     android:id="@+id/SerialNOEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/ModelNOEditText"
+     android:layout_alignLeft="@+id/ModelNOEditText"
+     android:selectAllOnFocus="true"
+     android:textSize="20dp"
+     android:text="45193210026" />
+
+ <TextView
+     android:id="@+id/VoltageTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/SerialNOTextView"
+     android:layout_alignLeft="@+id/SerialNOTextView"
+     android:background="@android:color/darker_gray"
+     android:layout_alignTop="@+id/VoltageEditText"
+     android:textSize="25dp"
+     android:text="输入电压：" />
+
+ <EditText
+     android:id="@+id/VoltageEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/SerialNOEditText"
+     android:layout_alignLeft="@+id/SerialNOEditText"
+     android:selectAllOnFocus="true"
+     android:textSize="20dp"
+     android:text="24V" />
+
+ <TextView
+     android:id="@+id/CurrentTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/VoltageTextView"
+     android:layout_alignLeft="@+id/VoltageTextView"
+     android:background="@android:color/darker_gray"
+     android:layout_alignTop="@+id/CurrentEditText"
+     android:textSize="25dp"
+     android:text="输入电流：" />
+
+ <EditText
+     android:id="@+id/CurrentEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/VoltageEditText"
+     android:layout_alignLeft="@+id/VoltageEditText"
+     android:textSize="20dp"
+     android:selectAllOnFocus="true"
+     android:text="2.5A" />
+
+ <TextView
+     android:id="@+id/PhioneNumTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/CurrentTextView"
+     android:layout_alignLeft="@+id/CurrentTextView"
+     android:background="@android:color/darker_gray"
+     android:layout_alignTop="@+id/PhioneNumEditText"
+     android:textSize="25dp"
+     android:text="联系电话：" />
+
+ <EditText
+     android:id="@+id/PhioneNumEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/CurrentEditText"
+     android:layout_alignLeft="@+id/CurrentEditText"
+     android:textSize="20dp"
+     android:selectAllOnFocus="true"
+     android:text="400-869-8169" />
+
+ <TextView
+     android:id="@+id/CampanyChTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/PhioneNumTextView"
+     android:layout_alignLeft="@+id/PhioneNumTextView"
+     android:background="@android:color/darker_gray"
+     android:textSize="25dp"
+     android:text="中文公司\n名称：" />
+
+ <EditText
+     android:id="@+id/CampanyChEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/PhioneNumEditText"
+     android:layout_alignLeft="@+id/PhioneNumEditText"
+     android:selectAllOnFocus="true"
+     android:textSize="20dp"
+     android:text="上海济强电子科技有限公司" />
+
+ <TextView
+     android:id="@+id/CampanyEnTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/CampanyChTextView"
+     android:layout_alignLeft="@+id/CampanyChTextView"
+     android:background="@android:color/darker_gray"
+     android:layout_alignTop="@+id/CampanyEnEditText"
+     android:textSize="25dp"
+     android:text="英文公司\n名称：" />
+
+ <EditText
+     android:id="@+id/CampanyEnEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/CampanyChEditText"
+     android:layout_alignLeft="@+id/CampanyChEditText"
+     android:textSize="20dp"
+     android:selectAllOnFocus="true"
+     android:text="Shanghai JQ Electronic Technoloy Co.Ltd" />
+
+ <TextView
+     android:id="@+id/AddressTextView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/CampanyEnTextView"
+     android:layout_alignLeft="@+id/CampanyEnTextView"
+     android:background="@android:color/darker_gray"
+     android:layout_alignTop="@+id/AddressEditText"
+     android:textSize="25dp"
+     android:text="地址：" />
+
+ <EditText
+     android:id="@+id/AddressEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/CampanyEnEditText"
+     android:layout_alignLeft="@+id/CampanyEnEditText"
+     android:selectAllOnFocus="true"
+     android:textSize="20dp"
+     android:text="上海市浦东新区新金桥路1299弄1号楼601室" />
+
+ <Button
+    android:id="@+id/ButtonJQTEKMode1Print"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="17dp"
+    android:onClick="ButtonJQTEKMode1Print_click"
+    android:textColor="@android:color/black"
+    android:background="@android:color/darker_gray"
+    android:text="打印" />
+
+</RelativeLayout>
